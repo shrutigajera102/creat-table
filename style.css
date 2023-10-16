@@ -1,0 +1,76 @@
+body{
+    background-image: url(very-dark-blue-free-solidcolor-background.jpg);
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        line-height: 1.42em;
+        color:#A7A1AE;
+        background-color:#373832;
+        opacity: 0.9;
+}
+h1{
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #558298;
+ font-family: Arial, Helvetica, sans-serif;
+}
+ .container th h1{
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #2681ab;;
+
+ } 
+ .container td{
+    font-weight: normal;
+    font-size: 1em;
+    box-shadow: 0 2px 2px -2px #0E1119;
+ }
+ .container{
+    text-align: left;
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+ }
+.container td .container th{
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.container th {
+    background-color: #061531;
+}  
+.container tr:nth-child(odd)  {
+    background-color: #323C50;
+}
+.container tr:nth-child(even) {
+    background-color: #1c387a;
+}
+.container td:first-child 
+{ color: #f87486; }
+
+.container td:hover{
+    background-color: #FFF842;
+    color: #403E10;
+    font-weight: bold;
+    box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+}
+.container tr:hover{
+    background-color: #464A52;
+ box-shadow: 0 6px 6px -6px #0E1119;
+       
+}
+.blue { color: #185875; }
+.yellow { color: #fdfdfa; 
+text-align: center;}
+
+.container td{
+    padding: 8px;
+}
+.container th{
+    padding: 8px;
+}
+
